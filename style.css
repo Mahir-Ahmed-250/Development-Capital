@@ -1,0 +1,358 @@
+
+.navbar{
+ background-color: white;
+}
+.navbar-nav{
+    padding-left: 250px;
+}
+.nav-link{
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: rgb(94, 93, 93) !important;
+}
+/* Home */
+.home-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), black url('./Images/1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 500px 00px 240px 220px;
+}
+.home-slogan{
+    margin-top: -340px;
+    font-size: 58px;
+    font-weight: 700;
+    color: white;
+}
+.home-description{
+    font-family: lato-light,lato,sans-serif;
+    padding-top: 100px ;
+    font-size: 16px;
+    color: white;
+}
+
+/* What We Are */
+.home-welcome{
+    margin-top: 100px;
+}
+.welcome-text{
+    font-weight: bold;
+    font-size:18px;
+    color: rgb(77, 77, 77);
+    font-family:raleway;
+    margin-bottom: 30px;
+}
+.welcome-text-2{
+    font-weight: bolder;
+    font-size:29px;
+    color: rgb(87, 87, 87);
+    font-family:lato-light,lato,sans-serif;
+}
+.welcome-text-2-span{
+   text-align: center;
+}
+.welcome-text-3{
+   margin-top: 40px;
+   text-align: center;
+   font-family:lato-light,lato,sans-serif;
+   font-size: 18px;
+}
+.welcome-text-3-span{
+    text-align: center;
+ }
+.welcome-text-4{
+   margin-top: 10px;
+   text-align: center;
+   font-family:lato-light,lato,sans-serif;
+   font-size: 18px;
+}
+.icon-1{
+    margin-top: 60px;
+    width: 50px;
+    height: 25px;
+}
+
+/* What We Do */
+.home-banner-2 {
+    margin-top: 150px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), black url('./Images/3.jpg');
+    background-size: cover;
+    padding: 500px 100px 150px 220px;
+}
+.what-we-do-text{
+   margin-top: -400px;
+   margin-left: -90px;
+   color: rgb(255,255,255);
+   font-weight: bold;
+   font-family:lato-light,lato,sans-serif;
+}
+.what-we-do-2-text{
+    font-weight: bolder;
+    font-size:38px;
+    color: rgb(255,255,255);
+    font-family:lato-light,lato,sans-serif;
+    text-align: center;
+}
+.what-we-do-3-text{
+color: rgb(255,255,255);
+font-size: 18px;
+text-align: center;
+margin-top: 30px;
+}
+.what-we-do-4-text{
+    font-size: 24px;
+    margin-left: -90px;
+    color: rgb(230, 142, 148) ;
+    font-weight: bold;
+}
+.what-we-do-5-text{
+    color: rgb(255,255,255);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.area-of-focus {
+    background:  rgb(216, 87, 94);
+    background-size: cover;
+    padding: 50px 100px 150px 220px;
+}
+.area-of-focus-text{
+    border-right: 1px solid rgb(255,255,255);
+    padding-right: 250px;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(255,255,255);
+}
+.area-of-focus-text-2{
+    color: rgb(255,255,255);
+    font-size: 28px;
+    font-family:lato-light,lato,sans-serif;
+}
+.icon-2{
+    width: 40px;
+}
+.area-sectors{
+    text-align: center;
+}
+.sectors{
+    border-right: 1px solid white;
+}
+
+/* Contact */
+.contact{
+    background: linear-gradient(rgba(122, 122, 122, 0.7), rgba(0, 0, 0, 0.6)), rgb(0, 0, 0) url('./Images/4.jpg');
+    background-size: cover;
+    padding: 500px 120px 150px 220px;
+}
+.contact-title{
+    margin-top: -400px;
+   margin-left: -90px;
+   
+}
+.contact-text{
+    color: rgb(255,255,255);
+    font-weight: 700;
+    font-size: 42px;
+    font-family:lato-light,lato,sans-serif;
+    text-align: center;
+}
+.icon-3{
+    width: 100px;
+    height: 60px;
+}
+.contact-address-text{   
+    margin-left: -90px;
+    color: rgb(255,255,255);
+    font-family:lato-light,lato,sans-serif;
+    text-align: center;
+}
+.icon-4{
+    width: 60px;
+    height: 40px;
+    display: inline;
+}
+.email{
+    margin-left: -300px;
+}
+.email-first-name{
+    width: 200px;
+    height: 60px;
+border: 1px solid red;
+}
+.email-last-name{
+    margin-left: 120px;
+    width: 200px;
+    height: 60px;
+    border: 1px solid red;
+}
+.email-number{
+    margin-left: 120px;
+    width: 200px;
+    height: 60px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+.email-message{
+    margin-left: 2px;
+    width: 500px;
+}
+.bottom-text{
+    background-color:rgb(204,204,204);
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+.bottom-text:hover{
+    color: rgb(255,255,255);
+}
+.button-submit{
+width: 200px;
+height: 50px;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media(max-width:800px){
+    .home-banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), black url('./Images/1.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        padding:500px 100px 300px 100px;
+    }
+    .navbar-nav{
+        padding-left: 0px;
+    }
+    .nav-link{
+        font-weight: 700;
+       
+        color: rgb(94, 93, 93) !important;
+    }
+    .welcome-text-2{
+        font-weight: bolder;
+        font-size:15px;
+        padding: 20px;
+       text-align: center;
+        color: rgb(87, 87, 87);
+        font-family:lato-light,lato,sans-serif;
+    }
+    .welcome-text-2-span{
+       text-align: center;
+    }
+    .welcome-text-3{
+       margin-top: 40px;
+       padding: 20px;
+       text-align: justify;
+       font-family:lato-light,lato,sans-serif;
+       font-size: 14px;
+    }
+    .welcome-text-4{
+       margin-top: 10px;
+       text-align: justify;
+       font-family:lato-light,lato,sans-serif;
+       font-size: 18px;
+    }
+    .area-of-focus-title{
+        margin-left: -180px;
+    }
+    
+    .area-sectors{ 
+        text-align: justify;
+        margin-left: -100px;
+    }
+    .sectors{
+        border: none;
+        margin-bottom: 20px;
+    }
+    .home-banner-2 {
+        margin-top: 150px;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), black url('./Images/3.jpg');
+        background-size: cover;
+        padding:500px 100px 300px 100px;
+    }
+    .what-we-do-text{
+        margin-top: -400px;
+        margin-left: 5px;
+        color: rgb(255,255,255);
+        font-weight: bold;
+        text-align: center;
+        font-family:lato-light,lato,sans-serif;
+     }
+     .what-we-do-2-text{
+         font-weight: bolder;
+         font-size:18px;
+         color: rgb(255,255,255);
+         font-family:lato-light,lato,sans-serif;
+         text-align: center;
+         
+     }
+     .what-we-do-3-text{
+     color: rgb(255,255,255);
+     font-size: 18px;
+     text-align: justify;
+     margin-top: 30px;
+     }
+     .what-we-do-4-text{
+         font-size: 24px;
+        margin-left: 15px;
+         color: rgb(230, 142, 148) ;
+         font-weight: bold;
+         margin-top: 30px;
+     }
+     .what-we-do-5-text{
+         color: rgb(255,255,255);
+         font-size: 15px;
+         text-align: center;
+         margin-top: 30px;
+     }
+     .area-of-focus {
+        background:  rgb(216, 87, 94);
+        background-size: cover;
+    }
+    .area-of-focus-text{
+        border-right: 1px solid rgb(255,255,255);
+        font-size: 36px;
+        font-weight: bold;
+        color: rgb(255,255,255);
+    }
+    .area-of-focus-text-2{
+        color: rgb(255,255,255);
+        margin-left: -180px;
+        font-size: 20px;
+        font-family:lato-light,lato,sans-serif;
+    }
+   
+    .email-first-name{
+        width: 200px;
+        height: 60px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+    }
+    .email-last-name{
+        margin-left: 0px;
+        width: 200px;
+        height: 60px;
+        border: 1px solid red;
+        
+    }
+    .email-number{
+        margin-left: 0px;
+        width: 200px;
+        height: 60px;
+    }
+    .email-message{
+        margin-left: 0px;
+        width: 200px;
+    }
+    .button-submit{
+        margin-left: -130px;
+            margin-top: 20px;
+    }
+ }
